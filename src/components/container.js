@@ -1,5 +1,9 @@
 import React from "react";
 
-export default ({ children }) => {
-  return <section className="container">{children}</section>;
-};
+class Container extends React.Component {
+  render() {
+    return <div>{ this.props.children }</div>;
+  }
+}
+
+export default Container;

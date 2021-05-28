@@ -11,14 +11,14 @@ export default function container() {
     <div>
       <Header />
       <row>
-        <col>
+        <Col>
           {" "}
           <h2 class="up"> Uptown</h2>{" "}
-        </col>
-        <col>
+        </Col>
+        <Col>
           {" "}
           <h2 class="down"> Downtown </h2>{" "}
-        </col>
+        </Col>
       </row>
 
       <Container>

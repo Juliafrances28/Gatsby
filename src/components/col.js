@@ -1,10 +1,9 @@
 import React from "react";
 
-
-function section ({ children }) {
-  return <section className="col"> {children} </section>;
+class ColumnSection extends React.Component {
+  render() {
+    return <div>{ this.props.children }</div>;
+  }
 }
 
-// export default ({ Children }) => {
-//   return <section className="col">{Children}</section>;
-// };
+export default ColumnSection;
