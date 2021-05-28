@@ -1,0 +1,45 @@
+.up {
+  border-bottom: 1px solid black;
+  color: Black;
+  padding-left: 315px;
+}
+
+.down {
+  border-bottom: 1px solid black;
+  color: Black;
+  padding-left: 1230px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  grid-row-start: auto;
+}
+
+.container {
+  font-family: sans-serif;
+  color: black;
+  column-count: 2;
+  border-bottom: 1px solid red;
+  columns: space-between;
+}
+
+.header {
+  margin: auto;
+  font-family: sans-serif;
+  color: black;
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding: 10px 30px;
+}
+
+/* @media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}  */
