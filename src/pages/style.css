@@ -1,31 +1,44 @@
-.up {
+/* This property refers to styling the first row - Uptown */
+/* .up {
+border-bottom: 1px solid black; 
+  color: Black;
+ padding-left: 315px;
+}  */
+
+/* This property refers to styling the second row - Downtown */
+/* .down {
   border-bottom: 1px solid black;
   color: Black;
-  padding-left: 315px;
-}
+} */
 
-.down {
-  border-bottom: 1px solid black;
-  color: Black;
-  padding-left: 1230px;
-}
-
-.row {
+/* This property refers to styling the rows */
+/* .row {
   display: flex;
+  column-count: 2;
   justify-content: space-evenly;
   width: 100%;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
-  grid-row-start: auto;
-}
+  border-bottom: 1px solid red;
+} */
 
-.container {
+/* This property refers to styling the columns, but 
+styling is being ignored */
+/* .col {
+  column-count: 4;
+} */
+
+/* This property refers to styling the container, but
+ the styling is being ignored*/
+
+/* .locations {
   font-family: sans-serif;
   color: black;
-  column-count: 2;
   border-bottom: 1px solid red;
   columns: space-between;
-}
+} */
+
+/* This property refers to styling the header  */
 
 .header {
   margin: auto;

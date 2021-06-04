@@ -1,0 +1,45 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* .header {
+  margin: auto;
+  font-family: sans-serif;
+  color: black;
+  display: flex;
+  align-items: center;
+  column-count: 2;
+  row-gap: 10px;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding: 10px 30px;
+  font-size: 15px; 
+}
+*/
+
+.grid-rows-1 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.grid-rows-7 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid red;
+}
+
+/* table.auto {
+  table-layout: auto;
+} */
+
+/* .grid-cols-2 {
+  grid-template-rows: 7;
+} */
+
+/* .right-col {
+  column-count: 2;
+  column-span: all; 
+} */
