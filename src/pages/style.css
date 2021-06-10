@@ -45,14 +45,50 @@ styling is being ignored */
   font-family: sans-serif;
   color: black;
   display: flex;
-  align-items: left;
-  justify-content: space-between;
+  /* justify-content: space-evenly; */
   border-bottom: 1px solid black;
   padding: 10px 30px;
+  text-decoration: bold;
 }
+
+.headerOne {
+  text-decoration: bold;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.headerFour {
+}
+
+.time {
+  padding: right 10px;
+}
+
+/* .station {
+  padding: right 10px;
+} */
 
 /* @media screen and (max-width: 600px) {
   .column {
     width: 100%;
   }
+}  */
+
+/* this property refers to styling the columns */
+.horizontal {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 25px;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.right-col .left-col {
+  width: 50%;
+}
+
+/* .left-col {
+  width: 50%;
+  
 }  */
