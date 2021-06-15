@@ -1,94 +1,46 @@
-/* This property refers to styling the first row - Uptown */
-/* .up {
-border-bottom: 1px solid black; 
-  color: Black;
- padding-left: 315px;
-}  */
-
-/* This property refers to styling the second row - Downtown */
-/* .down {
-  border-bottom: 1px solid black;
-  color: Black;
-} */
-
-/* This property refers to styling the rows */
-/* .row {
-  display: flex;
-  column-count: 2;
-  justify-content: space-evenly;
-  width: 100%;
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid red;
-} */
-
-/* This property refers to styling the columns, but 
-styling is being ignored */
-/* .col {
-  column-count: 4;
-} */
-
-/* This property refers to styling the container, but
- the styling is being ignored*/
-
-/* .locations {
-  font-family: sans-serif;
-  color: black;
-  border-bottom: 1px solid red;
-  columns: space-between;
-} */
-
-/* This property refers to styling the header  */
-
+/* This property refers to styling the whole header  */
 .header {
   margin: auto;
   font-family: sans-serif;
   color: black;
   display: flex;
-  /* justify-content: space-evenly; */
   border-bottom: 1px solid black;
   padding: 10px 30px;
-  text-decoration: bold;
 }
 
+/* This property refers to styling the text for the first header  */
 .headerOne {
   text-decoration: bold;
   font-size: 30px;
   padding-left: 10px;
 }
 
+/* This property refers to styling the text for the second header  */
 .headerFour {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0;
+  margin-left: 5px;
+  margin-right: 15px;
+}
+.up {
+  text-indent: 75px;
+  margin-left: 20px;
 }
 
-.time {
-  padding: right 10px;
+.down {
+  text-indent: 75px;
+  margin-right: 20px;
 }
 
-/* .station {
-  padding: right 10px;
+/* .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 } */
 
 /* @media screen and (max-width: 600px) {
   .column {
     width: 100%;
   }
-}  */
-
-/* this property refers to styling the columns */
-.horizontal {
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-  margin-top: 25px;
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
-}
-
-.right-col .left-col {
-  width: 50%;
-}
-
-/* .left-col {
-  width: 50%;
-  
 }  */
