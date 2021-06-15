@@ -13,11 +13,11 @@
   border-bottom: 1px solid red;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
+  grid-gap: 0 auto;
   font-size: 20px;
   width: 100%;
 }
 
 .horizontal {
-  text-indent: 75px;
-  margin-left: 20px;
+  text-indent: 50px;
 }
